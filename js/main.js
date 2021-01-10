@@ -8,10 +8,10 @@ let x = setInterval(()=>{
     let minutes = Math.floor((d%(1000*60*60))/(1000*60))
     let seconds = Math.floor((d%(1000*60))/1000)
 
-    document.getElementById("days").innerHTML = days || 0
-    document.getElementById("hours").innerHTML = hours
-    document.getElementById("minutes").innerHTML = minutes
-    document.getElementById("seconds").innerHTML = seconds
+    document.getElementById("days").innerHTML = Number(days)
+    document.getElementById("hours").innerHTML = Number(hours)
+    document.getElementById("minutes").innerHTML = Number(minutes)
+    document.getElementById("seconds").innerHTML = Number(seconds)
 
     if(d<=0){
         clearInterval(x)
