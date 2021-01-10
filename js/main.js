@@ -12,4 +12,9 @@ let x = setInterval(()=>{
     document.getElementById("hours").innerHTML = hours
     document.getElementById("minutes").innerHTML = minutes
     document.getElementById("seconds").innerHTML = seconds
+
+    if(d<=0){
+        clearInterval(x)
+    }
+
 }, 1000)
