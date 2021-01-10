@@ -8,7 +8,7 @@ let x = setInterval(()=>{
     let minutes = Math.floor((d%(1000*60*60))/(1000*60))
     let seconds = Math.floor((d%(1000*60))/1000)
 
-    document.getElementById("days").innerHTML = days
+    document.getElementById("days").innerHTML = days || 0
     document.getElementById("hours").innerHTML = hours
     document.getElementById("minutes").innerHTML = minutes
     document.getElementById("seconds").innerHTML = seconds
