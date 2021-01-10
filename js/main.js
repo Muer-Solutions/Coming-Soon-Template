@@ -1,4 +1,4 @@
-let count = new Date("jan 20, 2021 00:00:00:00").getTime()
+let count = new Date('2021-01-21 12:00:00'.replace(/-/g, '/')).getTime()
 let x = setInterval(()=>{
     let now = new Date().getTime();
     let d = count - now
@@ -15,7 +15,6 @@ let x = setInterval(()=>{
     document.getElementById("minutes").innerHTML = String(minutes)
     document.getElementById("seconds").innerHTML = String(seconds)
 
-    h
 
     if(d<=0){
         clearInterval(x)
