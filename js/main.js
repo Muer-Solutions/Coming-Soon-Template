@@ -10,10 +10,10 @@ let x = setInterval(()=>{
 
     
 
-    document.getElementById("days").innerHTML = parseInt(days)
-    document.getElementById("hours").innerHTML = parseInt(hours)
-    document.getElementById("minutes").innerHTML = parseInt(minutes)
-    document.getElementById("seconds").innerHTML = parseInt(seconds)
+    parseInt(document.getElementById("days").innerHTML = parseInt(days))
+    parseInt(document.getElementById("hours").innerHTML = parseInt(hours))
+    parseInt(document.getElementById("minutes").innerHTML = parseInt(minutes))
+    parseInt(document.getElementById("seconds").innerHTML = parseInt(seconds))
 
     if(d<=0){
         clearInterval(x)
