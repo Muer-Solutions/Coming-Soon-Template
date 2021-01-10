@@ -32,9 +32,9 @@ body{
 .container h1{
     text-transform: uppercase;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     letter-spacing: 15px;
-    /* font-weight: bold; */
+    font-weight: bold;
     
 }
 .container h2{
