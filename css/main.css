@@ -17,6 +17,10 @@ body{
     
 }
 
+a{
+    color: #333;
+}
+
 .container{
     max-width: 1100px;
     margin: 0 auto;
@@ -73,6 +77,18 @@ body{
     font-family: sans-serif;
     letter-spacing: 2px;
 }
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab{
+    margin: 0 10px;
+}
+
+.fab
 
 /* .typing-effects {
     animation: type 2s steps(26);
